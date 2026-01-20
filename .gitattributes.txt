@@ -1,0 +1,25 @@
+# Normalize line endings for all text files
+* text=auto
+
+# Set line endings for specific file types
+*.bat text eol=crlf
+*.sh text eol=lf
+*.txt text eol=lf
+*.log text eol=lf
+
+# Unreal Engine specific files
+*.uasset binary
+*.umap binary
+*.uproject text eol=lf
+*.ini text eol=lf
+*.config text eol=lf
+*.json text eol=lf
+
+# Exclude intermediate build and saved files
+Intermediate/** -text
+Saved/** -text
+DerivedDataCache/** -text
+Binaries/** -text
+
+# Exclude any telemetry files if needed
+Saved/Telemetry/** -text

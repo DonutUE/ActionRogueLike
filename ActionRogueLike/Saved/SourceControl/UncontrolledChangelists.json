@@ -1,0 +1,14 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Tom Looman/ActionRogueLike/ActionRogueLike/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"D:/Tom Looman/ActionRogueLike/ActionRogueLike/Content/TestLevel.umap",
+				"D:/Tom Looman/ActionRogueLike/ActionRogueLike/Content/Map/TestLevel.umap"
+			]
+		}
+	]
+}
